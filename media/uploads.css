@@ -1,0 +1,182 @@
+*{
+    margin:0;
+    padding:0;
+}
+
+.fl{
+    float:left;
+}
+
+.fr{
+    float:right;
+}
+
+.clear{
+    clear:both;
+}
+
+.pointer{
+    cursor:pointer
+}
+
+.absolute{
+    position:absolute;
+}
+
+.fixed{
+    position:fixed;
+}
+
+.relative{
+    position:relative;
+}
+
+.align-center{
+    display:block;
+    margin:auto;
+}
+
+.align-left{
+    display:block;
+    float:left;
+}
+
+.align-right{
+    display:block;
+    float:right;
+}
+
+.transition{
+     transition:all 0.3s;
+    -webkit-transition:all 0.3s;
+}
+
+.bold{
+    font-weight:bold;
+}
+
+.none{
+    display:none!important;
+}
+
+body{
+    padding:5px;
+}
+
+.box img {
+    height: 100%;
+    
+    display: block;
+    margin: auto;
+    
+   
+}
+
+.box .img-url {
+    height: 70px;
+}
+.box {
+    margin: 5px;
+    border: 3px solid #fff!important;
+    border: aliceblue;
+
+    width: 160px;
+    height: 120px;
+    float: left;
+
+}
+
+.box.active {
+    border: 3px solid #5bc0de!important;
+}
+
+.box img{
+    max-width:100%;
+    max-height:100%;
+    display:block;
+    margin:auto;
+}
+
+.box .handle {
+    background: rgba(255, 255, 255, 0.76);
+    padding: 5px;
+    right: 0;
+    top: 0px;
+    border-radius: 2px;
+    opacity:0;
+}
+.box .handle:hover {
+    background: #563d7c;  
+    color:#fff;  
+}
+.box:hover .handle{
+    opacity:1;
+}
+
+.box .delete{
+    bottom:0;
+    top: auto;
+}
+
+
+
+
+.box .attribute {
+    color:#fff;
+    background: rgba(44, 204, 202, 0.88);
+    padding: 10px;
+    z-index: 10;
+    font-family: verdana;
+    width: 300px;
+    left: -50px;
+    display:none;
+    top: 22px;
+}
+
+.box .action{
+    margin-top:10px;
+}
+
+.box .noti{
+    top:20px;
+    left:10px;
+    opacity:1;
+}
+
+
+section#sidebar {
+    background: rgba(72, 181, 207, 1);
+    padding: 10px;
+    line-height: 36px;
+    position: fixed;
+    width: 100%;
+    top: 0;
+    height: 50px;
+    left: 0;
+    z-index: 12;
+}
+
+section#sidebar li {
+    list-style: none;
+    margin: 0 20px;
+}
+section#sidebar a {
+    color: #fff;
+    font-weight: bold;
+    font-family: verdana;
+}
+
+form.uploadform {
+    margin: 50px auto;
+    /* width: 100%; */
+    text-align: center;
+}
+h1.title {
+    margin-top: 54px;
+}
+
+#load-more-point{
+    bottom:0px;
+    right: 130px;
+    top: auto;
+}

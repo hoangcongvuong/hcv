@@ -1,0 +1,197 @@
+#list_block .block {
+    color: #fff;  
+    background-color: #5bc0de;  
+    border-color: #46b8da;
+    display: inline-block;    
+    text-align: center;  
+    vertical-align: middle;
+    border: 1px solid transparent;  
+    white-space: nowrap;  
+    padding: 6px 6px;  
+    font-size: 11px;  
+    line-height: 1.42857143;  
+    border-radius: 4px;  
+    -webkit-user-select: none;  
+    -moz-user-select: none;  
+    -ms-user-select: none;  
+    user-select: none;
+}
+
+#list_block .block:hover{
+    cursor:move;
+}
+
+.block_area{
+    margin-bottom: 30px;
+    border: 1px solid rgb(255, 0, 0);
+    min-height: 45px;
+    min-width: 50px;
+}
+
+.ui-dialog-title {
+    background: rgb(56, 214, 187);
+    display:block;
+    color:#fff;
+    padding:5px 10px;
+    font-weight:bold;
+    text-transform:uppercase;
+    margin-bottom: 20px;
+    cursor: move;
+}
+
+.ui-dialog-title {}
+.ui-dialog-titlebar-close {
+    position: absolute;
+    right: 15px;
+    top: 13px;
+    text-indent: -65px;
+    display: block;
+    width: 20px;
+    height: 20px;
+    background: url(../images/icons.png) 162px 113px #fff;
+    border: none;
+    border-radius: 2px;
+    cursor: pointer;
+}
+.ui-dialog input[type="text"]{
+    padding: 5px 10px; 
+    width: 90%;
+    outline: none;
+    font-style: italic;
+    margin-bottom: 30px;
+    border: 1px solid rgb(205, 205, 205);
+}
+
+.ui-dialog-titlebar-close:hover {
+    background-color: #b3d4fc;
+}
+
+.ui-dialog {
+    overflow: hidden;
+    -moz-box-shadow: #333 0 0 7px;  -webkit-box-shadow: #333 0 0 7px;  box-shadow: #333 0 0 7px;
+    padding: 10px;
+    background: #fff;
+    border: 9px solid #666;
+    z-index: 9;
+}
+.ui-dialog label {
+    font-weight: bold;
+    color: #666;
+    margin-top: 15px;
+    display: block;
+}
+.ui-dialog textarea {
+    width: 270px;
+    min-height: 100px;
+    padding: 5px 10px;
+    margin-bottom: 25px;
+    outline: none;
+    font-style: italic;
+    border: 1px solid rgb(205, 205, 205);
+}
+.ui-dialog * {
+    max-width: 100%;
+}
+
+.ui-dialog-buttonset {
+    float: right;
+    /* background: red; */
+    padding: 5px 10px;
+    /* border: 1px solid silver; */
+}
+.ui-dialog-buttonset .ui-button {
+    background: #5BA2D8;
+    border: none;
+    color: #fff;
+    font-weight: bold;
+    text-transform: uppercase;
+    width: 100%;
+    height: 100%;
+    display: block;
+    padding: 5px 10px;
+    cursor:pointer;
+} 
+.ui-dialog-buttonset .ui-button:hover{
+    background: #8FBEF6;}
+
+.ui-dialog-buttonset .ui-button * {
+    color: #fff;
+}
+
+.opacity{
+    background:#000;
+    opacity: 0.7;
+    display:none;
+    position:fixed;
+    width:100%;
+    height:100%;
+    z-index: 9;
+    top: 0;
+    left: 0;
+}
+
+.block_area .block {
+    position: relative;
+    border: 1px dashed rgb(144, 217, 193);
+    margin: 5px;
+    cursor: move;
+}
+.block_action {
+    padding: 9px;
+    border: 1px solid rgb(229, 229, 229);
+    position:absolute;
+    top: 5px;
+    
+    cursor: pointer;
+}
+.delete_block{
+    background: url(../images/icons.png) 80px 145px;
+    right: 5px;
+}
+
+.update_block{
+    background: url(../images/icons.png) 81px 130px;
+    right: 28px;
+}
+
+.block_action:hover {
+    border: 1px solid red;
+}
+
+div#list_block {
+    padding: 10px;
+    position: fixed;
+    top: 0;
+    left: 0;
+    height: 100%;
+    z-index: 7;
+    background: #FAFAFA;
+    border-bottom: 1px solid silver;
+    width: 51px;
+    text-align: center;
+}
+div#list_block .block {
+    margin: 5px;
+}
+
+body {
+    margin-top: 60px;
+}
+
+.ui-dialog input[type="button"] {
+    color: #fff;  background-color: #5bc0de;  border-color: #46b8da;
+}
+.btn{
+    display: inline-block;  
+    margin-bottom: 0;  font-weight: 400;  text-align: center;  vertical-align: middle;  cursor: pointer;  background-image: none;  border: 1px solid transparent;  white-space: nowrap;  padding: 6px 12px;  font-size: 14px;  line-height: 1.42857143;  border-radius: 4px;  -webkit-user-select: none;
+}
+
+.submit-frame {
+    color: #fff;  background-color: #428bca;  border-color: #357ebd;
+}
+
+.close-frame{
+    color: #333;
+    background-color: #fff;
+    border-color: #ccc;
+}

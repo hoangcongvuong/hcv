@@ -1,0 +1,25 @@
+#design-mode {
+    color: #fff;  
+    background: #5cb85c;
+    position: fixed;
+    top: 0;
+    right: 0;
+    margin: 10px;
+    padding: 6px;
+    font-size: 12px;
+    font-weight: bold;
+    cursor: alias;
+    border: 1px solid #fff;
+    z-index: 8;
+}
+
+#media-frame {
+    z-index: 10;
+    width: 960px;
+    background: #fff;
+    padding: 5px 0;
+    -webkit-box-shadow: #333 0 0 7px;
+    box-shadow: #333 0 0 7px;
+    padding: 5px;
+    overflow: hidden;
+}
